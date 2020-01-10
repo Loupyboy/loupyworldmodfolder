@@ -1,0 +1,2 @@
+waypoint:My Industry:M:632:56:-731:11:false:0:gui.xaero_default:false:0
+waypoint:Ship:S:2696:134:1419:1:false:0:gui.xaero_default:false:0

@@ -1,0 +1,533 @@
+2019-05-22 00:30:13,201 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-22 00:30:13,288 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-22 00:32:37,586 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-22 00:32:38,053 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-22 00:49:53,851 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-22 00:49:54,370 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-22 01:01:07,291 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-22 01:01:07,384 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-22 01:10:43,817 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-22 01:10:44,467 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-22 01:11:22,909 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:115 | Unable to locate closest player - using World spawn point
+2019-05-22 01:11:23,601 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:115 | Unable to locate closest player - using World spawn point
+2019-05-22 01:11:23,709 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-05-22 01:11:24,020 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 12 56 -4
+2019-05-22 01:16:04,171 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-22 01:16:05,144 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-22 01:16:43,596 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:115 | Unable to locate closest player - using World spawn point
+2019-05-22 01:16:43,693 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-05-22 01:16:43,869 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -1344 56 -19
+2019-05-22 01:20:40,362 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-22 01:20:40,873 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-22 01:24:22,582 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-22 01:24:22,870 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-25 00:00:59,688 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-25 00:00:59,774 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-25 00:48:41,515 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-25 00:48:41,608 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-25 02:07:45,479 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-25 02:07:45,568 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-26 00:28:30,796 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-26 00:28:30,830 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-26 00:30:45,572 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-26 00:30:45,660 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-27 21:35:49,759 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-27 21:35:49,795 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-27 23:01:53,463 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-27 23:01:53,606 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-05-31 23:10:14,961 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-05-31 23:10:14,996 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-01 02:00:24,680 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-01 02:00:24,713 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-02 18:58:42,608 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-02 18:58:42,642 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-02 19:25:16,864 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-02 19:25:17,667 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-02 20:39:25,868 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-02 20:39:25,903 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-02 20:54:55,068 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-02 20:54:55,100 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-02 22:23:56,004 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-02 22:23:56,486 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-02 23:24:34,609 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-02 23:24:34,642 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-02 23:26:45,706 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-02 23:26:45,741 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-02 23:47:33,025 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-02 23:47:33,057 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-05 21:07:34,317 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-05 21:07:34,353 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-05 23:37:54,718 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-05 23:37:54,752 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-06 00:34:34,111 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-06 00:34:34,151 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-06 15:50:04,525 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-06 15:50:04,562 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-06 16:01:20,739 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-06 16:01:20,771 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-06 17:44:31,244 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-06 17:44:31,518 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-06 18:41:39,437 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-06 18:41:39,502 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-06 18:47:37,479 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-06 18:47:37,514 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-10 15:15:02,309 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-10 15:15:02,342 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-10 15:30:31,535 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-10 15:30:31,868 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-10 22:27:31,111 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-10 22:27:31,192 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-15 21:00:56,920 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-15 21:00:56,951 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-24 15:30:41,888 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-24 15:30:42,086 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-25 15:57:24,512 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-25 15:57:24,546 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-26 14:17:18,234 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-26 14:17:18,327 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-26 22:44:38,442 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-26 22:44:38,500 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-28 15:49:32,402 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-28 15:49:32,509 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-28 19:47:11,133 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-28 19:47:11,169 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-06-29 00:04:39,914 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-06-29 00:04:40,078 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-02 20:32:26,475 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-02 20:32:26,632 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-02 21:12:21,558 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-02 21:12:21,811 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-02 21:34:34,425 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-02 21:34:34,476 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-02 23:01:19,033 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 2 to 1
+2019-07-02 23:01:19,035 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=3, coords=Coords [x=82, y=0, z=42], terminated=false], point2=Waypoint [id=0, coords=Coords [x=82, y=0, z=42], terminated=true], alignment=HORIZONTAL]
+2019-07-02 23:01:19,137 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-07-02 23:01:20,002 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -566 71 -392
+2019-07-03 00:06:09,106 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-03 00:06:09,140 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-03 01:33:57,294 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-03 01:33:57,329 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-03 02:42:52,495 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-03 02:42:52,941 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-03 02:48:42,602 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 3 to 2
+2019-07-03 02:48:42,692 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-07-03 02:48:43,132 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 449 64 878
+2019-07-03 03:42:34,396 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-03 03:42:34,431 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-03 18:29:24,028 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-03 18:29:24,187 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-03 23:07:17,250 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-03 23:07:17,501 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-03 23:13:37,368 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-03 23:13:37,812 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-03 23:27:54,599 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-03 23:27:54,695 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-04 00:03:51,326 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-04 00:03:51,361 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-04 01:28:17,314 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-04 01:28:17,350 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-04 15:41:08,684 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-04 15:41:08,764 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-04 15:48:16,041 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-04 15:48:16,078 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-04 17:35:12,373 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-04 17:35:12,408 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-04 21:10:31,874 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-04 21:10:31,909 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-04 21:28:29,602 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-04 21:28:29,636 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-05 13:38:41,520 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-05 13:38:41,557 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-05 19:39:23,274 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-05 19:39:23,309 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-05 19:42:24,546 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-05 19:42:24,581 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-05 19:50:45,901 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-05 19:50:45,935 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-05 19:54:26,196 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-05 19:54:26,301 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-05 20:17:52,866 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-05 20:17:52,904 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-05 20:35:02,177 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-05 20:35:02,214 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-05 20:52:17,629 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-05 20:52:17,729 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-05 21:01:15,464 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-05 21:01:15,868 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-10 17:31:33,384 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-10 17:31:33,526 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-10 17:52:02,238 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-10 17:52:02,272 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-11 21:53:43,651 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-11 21:53:43,684 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-12 02:00:09,377 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-12 02:00:09,459 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-12 15:00:17,363 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-12 15:00:17,453 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-12 20:16:15,391 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-12 20:16:15,424 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-12 20:51:36,781 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-12 20:51:36,815 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-14 22:49:15,584 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-14 22:49:15,622 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-15 02:02:25,377 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-15 02:02:25,408 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-15 16:27:07,348 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-15 16:27:07,379 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-17 18:23:34,127 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-17 18:23:34,161 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-19 16:08:19,454 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-19 16:08:19,487 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-19 16:25:04,487 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-19 16:25:04,519 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-07-19 17:37:23,914 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-07-19 17:37:24,179 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-08 18:17:00,788 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-08 18:17:00,912 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-08 19:00:10,604 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-08 19:00:10,691 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-08 19:04:45,675 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 1 to 0
+2019-08-08 19:04:45,693 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=21, coords=Coords [x=316, y=0, z=204], terminated=false], point2=Waypoint [id=25, coords=Coords [x=316, y=0, z=204], terminated=true], alignment=HORIZONTAL]
+2019-08-08 19:04:45,694 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 5 to 4
+2019-08-08 19:04:45,770 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-08-08 19:04:46,948 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 304 83 197
+2019-08-08 19:07:30,900 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 2 to 1
+2019-08-08 19:07:31,862 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 490 72 852
+2019-08-08 19:53:01,312 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-08 19:53:01,398 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-08 22:17:22,998 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-08-08 22:17:23,459 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 285 56 -514
+2019-08-09 00:05:25,510 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 560 56 -934
+2019-08-09 00:11:25,932 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=26, coords=Coords [x=14, y=0, z=113], terminated=false], point2=Waypoint [id=27, coords=Coords [x=14, y=0, z=113], terminated=true], alignment=HORIZONTAL]
+2019-08-09 00:11:25,937 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 3 to 2
+2019-08-09 00:11:26,311 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -457 56 -548
+2019-08-09 00:56:42,317 [Server thread] ERROR Dungeons2 | ChestCommand.java:89 | Error generating Dungeons2! chest:
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.someguyssoftware.dungeons2.command.ChestCommand.func_184881_a(ChestCommand.java:50) [ChestCommand.class:?]
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119) [bj.class:?]
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:91) [bj.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:962) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:941) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37) [la.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9) [la.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:20) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_191]
+	at net.minecraft.util.Util.func_181617_a(Util.java:529) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:252) [chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+2019-08-09 02:23:20,762 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-09 02:23:20,848 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-09 02:56:17,446 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-09 02:56:17,655 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-09 03:11:58,664 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-09 03:11:58,749 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-09 14:31:56,989 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-09 14:31:57,282 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-09 16:35:32,002 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-09 16:35:32,087 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-09 17:23:18,861 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-09 17:23:18,894 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-09 17:39:30,000 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-09 17:39:30,044 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-09 19:16:24,970 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-09 19:16:25,010 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-09 19:24:16,687 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-09 19:24:16,719 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-09 19:26:35,825 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-09 19:26:35,857 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-09 19:30:27,871 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-09 19:30:27,955 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-10 00:02:16,707 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-10 00:02:16,738 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-10 00:12:28,676 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-10 00:12:28,709 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-10 00:33:19,703 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-10 00:33:19,735 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-10 17:17:27,159 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-10 17:17:27,196 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-10 17:57:49,770 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-08-10 17:57:50,088 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 1619 51 292
+2019-08-10 17:58:04,825 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=0, coords=Coords [x=2560, y=0, z=1284], terminated=false], point2=Waypoint [id=2, coords=Coords [x=2560, y=0, z=1284], terminated=true], alignment=HORIZONTAL]
+2019-08-10 17:58:04,933 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 2571 56 1289
+2019-08-10 19:52:57,487 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-10 19:52:57,518 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-11 01:18:57,437 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=2, coords=Coords [x=47, y=0, z=808], terminated=false], point2=Waypoint [id=0, coords=Coords [x=47, y=0, z=808], terminated=true], alignment=HORIZONTAL]
+2019-08-11 01:18:57,447 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 1 to 0
+2019-08-11 01:18:57,450 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 2 to 1
+2019-08-11 01:18:57,559 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-08-11 01:18:57,950 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -357 70 811
+2019-08-11 16:00:04,821 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-11 16:00:04,907 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-12 15:00:50,286 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-12 15:00:50,707 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-12 15:34:39,405 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-12 15:34:39,493 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-12 19:36:22,848 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-12 19:36:22,940 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-12 21:28:31,006 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-12 21:28:31,157 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-13 15:24:22,183 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-13 15:24:22,271 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-13 16:15:59,002 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-13 16:15:59,272 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-14 19:33:25,144 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-14 19:33:25,233 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-14 20:14:26,718 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-14 20:14:26,807 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-15 01:11:49,586 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-15 01:11:49,716 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-15 01:29:47,990 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-15 01:29:48,076 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-15 16:08:21,941 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-15 16:08:22,029 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-15 16:59:37,385 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-15 16:59:37,471 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-15 17:03:52,684 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-15 17:03:52,773 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-16 00:18:15,713 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-16 00:18:15,801 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-16 00:42:08,184 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-16 00:42:08,279 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-22 01:50:02,646 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-22 01:50:02,737 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-22 02:02:12,411 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-22 02:02:12,501 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-22 02:11:26,722 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-22 02:11:26,921 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-22 02:12:27,545 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=9, coords=Coords [x=87, y=0, z=338], terminated=false], point2=Waypoint [id=13, coords=Coords [x=87, y=0, z=338], terminated=true], alignment=HORIZONTAL]
+2019-08-22 02:12:27,571 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=10, coords=Coords [x=35, y=0, z=346], terminated=false], point2=Waypoint [id=9, coords=Coords [x=35, y=0, z=346], terminated=true], alignment=HORIZONTAL]
+2019-08-22 02:12:27,675 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-08-22 02:12:28,885 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -264 68 338
+2019-08-22 02:13:54,670 [Server thread] WARN Dungeons2 | LevelBuilder.java:2606 | Start Room has invalid Minecraft world room conditions: Room [
+	id=4111,
+	name=null,
+	coords=Coords [x=-769, y=57, z=147],
+	center=Coords [x=-766, y=59, z=150],
+	depth=7,
+	width=7,
+	height=5,
+	anchor=true,
+	distance=0.0,
+	direction=WEST,
+	reject=false,
+	layout=null,
+	start=true
+	end=false,
+	boundingBoxbox[-769.0, 57.0, 147.0 -> -762.0, 62.0, 154.0]
+]
+2019-08-22 02:13:54,670 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:291 | Unable to generate Top level Start Room.
+2019-08-22 02:17:27,034 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-22 02:17:27,941 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-08-22 02:23:57,025 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-08-22 02:23:57,452 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -871 68 56
+2019-08-23 16:40:50,583 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-08-23 16:40:50,677 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-09-14 16:30:34,795 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-09-14 16:30:34,881 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-03 19:51:22,527 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-03 19:51:22,658 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-03 19:54:28,945 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-03 19:54:29,229 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-03 19:59:06,158 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-03 19:59:06,534 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-03 20:02:39,354 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 1 to 0
+2019-11-03 20:02:39,505 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-11-03 20:02:40,038 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 262 64 1883
+2019-11-03 20:23:38,169 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 98 64 1336
+2019-11-03 20:23:58,616 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 12 64 957
+2019-11-03 20:24:39,787 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=5, coords=Coords [x=56, y=0, z=685], terminated=false], point2=Waypoint [id=3, coords=Coords [x=56, y=0, z=685], terminated=true], alignment=HORIZONTAL]
+2019-11-03 20:24:39,795 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 3 to 2
+2019-11-03 20:24:40,275 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -477 64 663
+2019-11-03 20:25:05,235 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -1013 64 732
+2019-11-03 20:55:55,038 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-03 20:55:55,252 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-03 20:59:13,767 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-03 20:59:13,858 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-05 00:30:14,965 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-05 00:30:15,145 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-06 19:55:02,771 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-06 19:55:02,860 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-06 20:40:04,092 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-06 20:40:04,131 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-06 20:48:53,114 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:388 | Unable to generate Level: 0
+2019-11-06 20:49:00,526 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=14, coords=Coords [x=31, y=0, z=524], terminated=false], point2=Waypoint [id=4, coords=Coords [x=31, y=0, z=524], terminated=true], alignment=HORIZONTAL]
+2019-11-06 20:49:00,534 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=0, coords=Coords [x=38, y=0, z=525], terminated=false], point2=Waypoint [id=8, coords=Coords [x=38, y=0, z=525], terminated=true], alignment=HORIZONTAL]
+2019-11-06 20:49:00,545 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 4 to 3
+2019-11-06 20:49:00,675 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-11-06 20:49:01,361 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -1563 64 520
+2019-11-06 23:09:45,925 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-06 23:09:45,986 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-07 20:15:48,853 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-07 20:15:48,909 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-07 23:04:07,050 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-07 23:04:07,087 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-07 23:31:07,029 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=10, coords=Coords [x=24, y=0, z=15], terminated=false], point2=Waypoint [id=23, coords=Coords [x=24, y=0, z=15], terminated=true], alignment=HORIZONTAL]
+2019-11-07 23:31:07,174 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-11-07 23:31:08,086 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -1811 64 -207
+2019-11-08 23:32:24,792 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-08 23:32:24,824 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-09 00:16:47,242 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-09 00:16:47,317 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-09 13:11:38,223 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-09 13:11:38,257 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-09 15:08:39,517 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-09 15:08:39,564 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-09 16:17:27,223 [Server thread] ERROR Dungeons2 | BuildCommand.java:199 | Error generating Dungeons2! dungeon:
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.someguyssoftware.dungeons2.command.BuildCommand.func_184881_a(BuildCommand.java:62) [BuildCommand.class:?]
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119) [bj.class:?]
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:91) [bj.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:962) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:941) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37) [la.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9) [la.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:20) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:529) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:252) [chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2019-11-09 16:17:30,625 [Server thread] ERROR Dungeons2 | BuildCommand.java:199 | Error generating Dungeons2! dungeon:
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.someguyssoftware.dungeons2.command.BuildCommand.func_184881_a(BuildCommand.java:62) [BuildCommand.class:?]
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119) [bj.class:?]
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:91) [bj.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:962) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:941) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37) [la.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9) [la.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:20) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:529) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:252) [chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2019-11-09 16:17:35,125 [Server thread] ERROR Dungeons2 | BuildEntranceCommand.java:118 | Error generating Dungeons2! dungeon:
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.someguyssoftware.dungeons2.command.BuildEntranceCommand.func_184881_a(BuildEntranceCommand.java:67) [BuildEntranceCommand.class:?]
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119) [bj.class:?]
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:91) [bj.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:962) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:941) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37) [la.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9) [la.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:20) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:529) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:252) [chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2019-11-09 16:18:11,274 [Server thread] ERROR Dungeons2 | BuildCommand.java:199 | Error generating Dungeons2! dungeon:
+java.lang.NumberFormatException: For input string: "helpo"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_51]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_51]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_51]
+	at com.someguyssoftware.dungeons2.command.BuildCommand.func_184881_a(BuildCommand.java:62) [BuildCommand.class:?]
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119) [bj.class:?]
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:91) [bj.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:962) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:941) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37) [la.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9) [la.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:20) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:529) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:252) [chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2019-11-09 16:18:13,024 [Server thread] ERROR Dungeons2 | BuildCommand.java:199 | Error generating Dungeons2! dungeon:
+java.lang.NumberFormatException: For input string: "help"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_51]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_51]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_51]
+	at com.someguyssoftware.dungeons2.command.BuildCommand.func_184881_a(BuildCommand.java:62) [BuildCommand.class:?]
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119) [bj.class:?]
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:91) [bj.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:962) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:941) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37) [la.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9) [la.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:20) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:529) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:252) [chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2019-11-09 16:18:41,975 [Server thread] ERROR Dungeons2 | BuildCommand.java:199 | Error generating Dungeons2! dungeon:
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.someguyssoftware.dungeons2.command.BuildCommand.func_184881_a(BuildCommand.java:63) [BuildCommand.class:?]
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119) [bj.class:?]
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:91) [bj.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:962) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:941) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37) [la.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9) [la.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:20) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:529) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:252) [chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2019-11-09 16:18:59,924 [Server thread] ERROR Dungeons2 | BuildCommand.java:199 | Error generating Dungeons2! dungeon:
+java.lang.NumberFormatException: For input string: "basic"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_51]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_51]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_51]
+	at com.someguyssoftware.dungeons2.command.BuildCommand.func_184881_a(BuildCommand.java:62) [BuildCommand.class:?]
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119) [bj.class:?]
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:91) [bj.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:962) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:941) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37) [la.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9) [la.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:20) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:529) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:252) [chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2019-11-09 16:34:37,684 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:115 | Unable to locate closest player - using World spawn point
+2019-11-09 16:36:52,656 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 3 to 2
+2019-11-09 16:36:52,779 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2019-11-09 16:36:53,581 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -304 64 1990
+2019-11-09 18:06:13,749 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=15, coords=Coords [x=60, y=0, z=15], terminated=false], point2=Waypoint [id=16, coords=Coords [x=60, y=0, z=15], terminated=true], alignment=HORIZONTAL]
+2019-11-09 18:06:14,159 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -1968 64 -718
+2019-11-09 18:36:37,770 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-09 18:36:37,815 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-11 19:08:29,784 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-11 19:08:30,354 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2019-11-17 20:25:21,103 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2019-11-17 20:25:21,205 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-08 16:36:31,676 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-08 16:36:31,734 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-08 20:17:52,844 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-08 20:17:52,917 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-08 20:29:33,037 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-08 20:29:33,099 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-08 20:39:06,572 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-08 20:39:06,637 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json

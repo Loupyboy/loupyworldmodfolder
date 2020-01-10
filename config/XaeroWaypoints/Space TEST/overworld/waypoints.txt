@@ -1,0 +1,1 @@
+waypoint:Shipyard:S:-557:143:483:5:false:0:gui.xaero_default:false:0

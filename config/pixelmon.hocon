@@ -1,0 +1,394 @@
+# Réglages pour contrôler le mode Combat automatique pour les joueurs AFK.
+AFKHandler {
+    # Temps en secondes avant qu'un joueur en combat soit déclaré AFK et que le mode Combat automatique prenne sa place.
+    afkActivateSeconds=90
+    # Temps en secondes avant que le mode Combat automatique choisisse une attaque automatiquement à chaque tour.
+    afkHandlerTurnSeconds=15
+    # Si le joueur est AFK pendant un combat, le mode Combat automatique prend sa place. S'active après un délai défini, et laisse un délai défini entre chaque tours par la suite.
+    enableAFKHandler=false
+}
+# Réglages du comportement de la reproduction.
+Breeding {
+    # Autorise la pose de blocs ranch, nécessaire pour la reproduction de Pokémon.
+    allowBreeding=true
+    # Autorise deux Métamorph à se reproduire et à produire des œufs contenant des Pokémon aléatoires.
+    allowDittoDittoBreeding=true
+    # Autorise l'extension de ranch.
+    allowRanchExpansion=true
+    # Permet aux œufs aléatoires issus d'une reproduction Métamorph-Métamorph de contenir des légendaires.
+    allowRandomBreedingEggsToBeLegendary=false
+    # Nombre de ticks nécessaires pour passer à l'étape suivante de reproduction.
+    breedingTicks=18000
+    # Maximum Pokemon a player can have in all ranches across the world. Max of 0 is unlimited.
+    maxCumulativePokemonInRanch=0
+    # Nombre d'étape avant qu'une reproduction survienne (1-5).
+    numBreedingStages=5
+    # Fixe le nombre de pas par cycle d'œuf. Les œufs éclosent plus rapidement avec un nombre bas.
+    stepsPerEggCycle=255
+    # Contrôle la vitesse de reproduction en fonction des blocs posés dans la zone. Si désactivé, la vitesse de reproduction sera de x1.0.
+    useBreedingEnvironment=true
+}
+# Réglages pour rediriger les sauvegardes de Pixelmon vers une base de données externe.
+Database=null
+# Réglages pour l'ascenseur.
+Elevator {
+    # Distance de recherche maximale de haut en bas pour lier deux ascenseurs.
+    elevatorSearchRange=10
+}
+# Réglages pour contrôler les compétences externes.
+ExternalMoves {
+    # Autorise l'utilisation de compétences externes destructrices (inclut Coupe, Tunnel, Explosion...).
+    allowDestructiveExternalMoves=true
+    # Autorise l'utilisation de compétences externes (Éclate-Roc, Coupe..).
+    allowExternalMoves=true
+}
+# Réglages généraux pour le monde.
+General {
+    # Permet à l'enclume de remplacer les objets finis par des objets à commencer depuis l'inventaire du joueur sans avoir à les placer manuellement.
+    allowAnvilAutoreloading=false
+    # Autorise les joueurs à jeter des Pokéballs depuis la barre d'inventaire. Si désactivé, les Pokéballs ne peuvent être jetées qu'en combat.
+    allowCaptureOutsideBattle=true
+    # Autorise Jackpot à récompenser en PokéDollars lors de son utilisation.
+    allowPayDayMoney=true
+    # Permet au joueur de planter des Noigrumes et des Baies dans le sol.
+    allowPlanting=true
+    # Côté serveur, définit si les joueurs peuvent utiliser l'Éditeur de Pokémon. Côté client, définit si les autres joueurs peuvent utiliser l'Éditeur de Pokémon sur un joueur avec cette option.
+    allowPokemonEditors=true
+    # Autorise le joueur à renommer ses Pokémons (Réglage côté client,et non côté serveur).
+    allowPokemonNicknames=true
+    # Détermine si les combats entre joueurs (JcJ) donnent de l'expérience aux Pokémon. Ils n'en donnent pas si l'option est désactivée.
+    allowPvPExperience=true
+    # pixelmon.config.allowRandomPokemonToBeLegendary.comment
+    allowRandomPokemonToBeLegendary=true
+    # Autorise les joueur à chevaucher des Pokémon. Si désactivé, aucun Pokémon ne pourra être monté (option côté serveur).
+    allowRiding=true
+    # Si activé, les CT sont réutilisables. Sinon, elles sont consommées lors de l'utilisation.
+    allowTMReuse=false
+    # Détermine si les combats joueur contre dresseur (PNJ) donnent de l'expérience aux Pokémon. Ils n'en donnent pas si l'option est désactivée.
+    allowTrainerExperience=true
+    # Permet l'apparition de creepers, squelettes, etc. dans le monde. DANGER - peuvent vous tuer en plein combat.
+    allowVanillaMobs=false
+    # Détermine si les joueurs obtiennent automatiquement un Méga-Bracelet.
+    alwaysHaveMegaRing=false
+    # Récompenser les joueurs vainqueurs de combats sauvages d'une photo.
+    awardPhotos=false
+    # Le type d'IA à utiliser pour les combats de Pokémons boss. \n1: Choisir les attaques au hasard. 2: Choisir l'attaque faisant le plus de dégâts (en fonction du type), ignorant les attaques de statut. 3: Utiliser des attaques offensives et de statut.
+    battleAIBoss=2
+    # Le type d'IA à utiliser pour les combats de PNJ. \n1: Choisir les attaques au hasard. 2: Choisir l'attaque faisant le plus de dégâts (en fonction du type), ignorant les attaques de statut. 3: Utiliser des attaques offensives et de statut. 4: Utiliser toutes les compétences intelligemment et changer de Pokémon de façon avantageuse.
+    battleAITrainer=3
+    # Le type d'IA à utiliser pour les combats de Pokémons sauvages. \n1: Choisir les attaques au hasard. 2: Choisir l'attaque faisant le plus de dégâts (en fonction du type), ignorant les attaques de statut. 3: Utiliser des attaques offensives et de statut.
+    battleAIWild=1
+    # Dormir dans un lit soigne les Pokémon d'un joueur.
+    bedsHealPokemon=true
+    # Le multiplicateur pour la vitesse de croissance des arbres à baies et des noigrumes. Peut être entre 0.1 et 1000.
+    berryTreeGrowthMultiplier=1
+    # Détermine si les Pokémon sauvages qui ne sont pas en combat peuvent être blessés par des attaques physiques.
+    canPokemonBeHit=false
+    # Chance d'obtenir un Keunotor spécial en attrapant un Keunotor avec une Luxe Ball. (-1 pour désactiver)
+    chanceToGetSpecialBidoof=30
+    # Permet l'utilisation de machine à cloner pour cloner Mew en Mewtwo.
+    cloningMachineEnabled=true
+    # Fixe le nombre de boîtes que les joueurs ont dans leur PC (maximum 256 par joueur).
+    computerBoxes=30
+    # Définit si l'équipe et le PC des joueurs sont sauvegardés lors de la sauvegarde du monde (sinon, vous devrez enregistrer les données via /saveall, ou risquer la perte de données)
+    dataSaveOnWorldSave=true
+    # Si activé, le bouton "Tout laisser" dans l'écran des gains des Pokémon sauvages détruit les objets. Sinon, les objets sont laissés au sol.
+    deleteUnwantedDrops=false
+    # Le nombre de blocs minimal à avoir entre un Pokémon et le joueur le plus près pour que ledit Pokémon puisse despawner. 
+    despawnRadius=80
+    # Permet le guidage à la souris d'un Pokémon monté.
+    enablePointToSteer=true
+    # Autorise les Pokémon sauvages à engager des combats.
+    enableWildAggression=true
+    # Si actif, les joueurs pourront se défier en jettant leur Pokémon sur l'autre joueur plutôt que sur son Pokémon.
+    engagePlayerByPokeBall=true
+    # Multiplicateur de l'expérience gagnée en combat Pokémon.
+    expModifier=1
+    # Ce qu'il se passe si un combat est terminé de force sans une réelle conclusion. 0: Un vainqueur est déterminé selon de nombre de Pokémon restants (En prenant en compte le % de PV restant pour les départager). 1: Le combat est considéré comme une égalité. 2: Le combat est considéré comme terminé anormalement.
+    forceEndBattleResult=0
+    # Ajuste la variation de la taille causée par la prise de niveau (0-2). 1 correspond à une variation normale.
+    growthScaleModifier=1
+    # Définit le nombre de fois qu'un même Créhelf, Créfadet ou Créfollet peut infuser un rubis.
+    lakeTrioMaxEnchants=3
+    # Le niveau maximal qu'un Pokémon peut avoir.
+    maxLevel=100
+    # Le nombre maximal de plantes autorisées dans un chunk. S'applique aux Noigrumes et aux Baies.
+    maximumPlants=32
+    # Le nombre de capacités qu'un Donneur de capacités aura.
+    movesPerTutor=20
+    # Autorise chaque joueur à prendre plusieurs photos du même Pokémon.
+    multiplePhotosOfSamePokemon=true
+    # Pour monter un Pokémon, il faut qu'il soit type Vol ou Eau et possède la capacité Vol ou Surf (respectivement).
+    needHMToRide=false
+    # Chance que le talent Ramassage se déclenche après un combat (1/ratio). 0 désactive ce talent.
+    pickupRate=10
+    # Autorise les Pokémon sauvages à lâcher des objets (plumes, poulet, etc.) à leur mort.
+    pokemonDropsEnabled=true
+    # Génère des rapports d'erreur plus détaillés dans le fichier server.log si actif.
+    printErrors=true
+    # Si actif, les objets tenus consommables seront rendus aux Pokémon à la fin d'un combat joueur contre joueur.
+    returnHeldItems=true
+    # Si désactivé, les sanctuaires d'oiseaux légendaires sont à usage unique, et si activé, ils sont à usage multiple.
+    reusableBirdShrines=false
+    # Le multiplicateur de vitesse lors de la chevauchée d'un Pokémon. Peut être entre 0 et 1.
+    ridingSpeedMultiplier=1
+    # Permet l'apparition aléatoire de sanctuaires d'oiseaux légendaires dans le monde.
+    spawnBirdShrines=true
+    # Autorise la génération aléatoire de structures telle que les Centres Pokémon, les sanctuaires, et d'autres bâtiments si actif.
+    spawnStructures=true
+    # Si activé, l'utilisation de spawners est reservée aux opérateurs. Si désactivé, il faut être en mode créatif.
+    spawnersOpOnly=true
+    # Vous permet de choisir si vous offrez ou non un Pokémon de départ lors de la connexion d'un joueur (via l'écran de Pokémon de départ Pixelmon).
+    starterOnJoin=true
+    # Temps attendu avant de synchroniser l'horloge système (en secondes).
+    systemTimeSyncInterval=30
+    # Les PNJ d'échange sont à usage unique (désactivé) ou multiple (activé).
+    tradersReusable=false
+    # Whether the Ultra Space Dimension is activated or not.
+    ultraSpace=true
+    # The dimension ID Ultra Space will utilize. If smaller than 2, defaults to ID 72.
+    ultraSpaceDimId=0
+    # Choisir si le GUI doit s'afficher avec le butin après avoir battu un Pokémon.
+    useDropGUI=true
+    # Charger les fichiers de configuration externes pour les butins et les gains à partir du dossier "pixelmon/drops". Si activé et que le dossier "pixelmon/drops" n'existe pas, Pixelmon créera le dossier et y copiera les fichiers existants.
+    useExternalJSONFilesDrops=false
+    # Charger les fichiers de configuration externes pour les capacités à partir du dossier "pixelmon/moves". Si activé et que le dossier "pixelmon/moves" n'existe pas, Pixelmon créera le dossier et y copiera les fichiers existants.
+    useExternalJSONFilesMoves=false
+    # Charger les fichiers de configuration externes pour les PNJ à partir du dossier "pixelmon/npcs". Si activé et que le dossier "pixelmon/npcs" n'existe pas, Pixelmon créera le dossier et y copiera les fichiers existants.
+    useExternalJSONFilesNPCs=false
+    # Charger les fichiers de configuration externes pour les règles de combat à partir du dossier "pixelmon/rules". Si activé et que le dossier "pixelmon/rules" n'existe pas, Pixelmon créera le dossier et y copiera les fichiers existants.
+    useExternalJSONFilesRules=false
+    # Charger les fichiers de configuration externes pour le spawn à partir du dossier "pixelmon/spawning". Si activé et que le dossier "pixelmon/spawning" n'existe pas, Pixelmon créera le dossier et y copiera les fichiers existants.
+    useExternalJSONFilesSpawning=false
+    # Charger les fichiers de configuration externes pour le spawn à partir du dossier "pixelmon/stats". Si activé et que le dossier "pixelmon/stats" n'existe pas, Pixelmon créera le dossier et y copiera les fichiers existants.
+    useExternalJSONFilesStats=false
+    # Charger les fichiers de configuration externes pour les structures à partir du dossier "pixelmon/structures". Si activé et que le dossier "pixelmon/structures" n'existe pas, Pixelmon créera le dossier et y copiera les fichiers existants.
+    useExternalJSONFilesStructures=false
+    # Laisse votre monde suivre l'heure réelle ou non (utilise l'horloge système du serveur).
+    useSystemTimeForWorldTime=false
+    # Sauvegarde les entités Pixelmon dans le fichier lors de la sauvegarde du monde (Augmente grandement la taille et le temps de la sauvegarde si actif). Nécessaire pour le mod Morph.
+    writeEntitiesToWorld=false
+}
+# Réglages graphiques.
+Graphics {
+    # Affiche la vie de chaque Pokémon dans une barre au-dessus de leur tête.
+    drawHealthBars=false
+    # Fixe la distance maximale d'affichage du nom et du niveau des Pokémons (Réglage côté client uniquement). 1=Défaut, 2=Loin, 3=Très loin
+    namePlateRange=1
+    # If true, attack effects are only displayed to players participating in or spectating a battle.
+    onlyShowAttackEffectsToBattlers=true
+    # Définir si le joueur peut contrôler la caméra pendant le combat ou non.
+    playerControlCamera=true
+    # The range (in blocks) at which battle effects should be displayed to players if they are not in the battle.
+    rangeToDisplayAttackAnimations=40
+    # Valeur multipliée à la distance de rendu par défaut (64) pour obtenir la distance de rendu finale.
+    renderDistanceWeight=2
+    # Détermine si les Pokémon sauvages affichent leur niveau au dessus de leur tête.
+    renderWildLevels=true
+    # Augmente la taille des modèles de Pokémon en jeu de 30%.
+    scalePokemonModels=true
+    # Affiche le Pokémon actuellement cible des attaques à l'écran.
+    showCurrentAttackTarget=true
+    # Afficher les noms des Pokémon sauvages sur leurs plaques d'identification.
+    showWildNames=true
+    # Définir si vous passez à une caméra externe lors des combats ou non.
+    useBattleCamera=true
+    # Utiliser les "normal maps SMD" pour l'ombrage des Pokéballs.
+    useSmoothShadingOnPokeBalls=true
+    # UUtiliser les "normal maps SMD" pour l'ombrage des Pokémon.
+    useSmoothShadingOnPokemon=true
+}
+# Réglages pour les fonctionnalités de PixelUtilities.
+PixelUtilities {
+    # Spécifier les coordonnées du PokéCadeau évènementiel ici.
+    eventCoords=[
+        notConfigured
+    ]
+    # Active/désactive l'ajout de légendaires dans les PokéCadeaux évènementiels.
+    eventHasLegendaries=false
+    # Activé, chaque Pokémon  d'un PokéCadeau évènementiel a 1/"Ratio de chromatiques dans les PokéCadeaux évènementiels" chance d'être chromatique.
+    eventHasShinies=false
+    # Fixe le nombre maximal de Pokémon qui apparaissent dans les PokéCadeaux.
+    eventMaxPokemon=1
+    # Un PokéCadeau évènementiel doit-il apparaître ?
+    eventPokeGiftLoad=false
+    # Le ratio de chromatiques dans un PokéCadeau évènementiel (1/x).
+    eventShinyRate=10
+    # Définir une date personnalisée pour le PokéCadeau évènementiel (jour, puis mois).
+    eventTime="D/M"
+    # Autorise l'utilisation de PokéCadeaux (à placer/utiliser, prévention contre le spam).
+    pokeGiftHaveEvents=true
+    # Permet à plusieurs joueurs d'obtenir un Pokémon grâce à un PokéCadeau.
+    pokeGiftReusable=false
+    # Ajuster le niveau des combats en hautes herbes au niveau de l'équipe du joueur ?
+    scaleGrassBattles=false
+}
+# Réglages pour contrôler l'apparition de PokéButin et leur comportement.
+PokeLoot {
+    # Permet l'apparition de Trouées Cachées aléatoirement dans le monde.
+    spawnGrotto=true
+    # Permet l'apparition de PokéCoffres invisible aléatoirement dans le monde.
+    spawnHidden=true
+    # Mode d'apparition par défaut (PAPS=0, 1BPJ=1, BI=2, CHRONO=3). PAPS = Premier Arrivé Premier Servi, seul le premier joueur peut ouvrir le coffre, il disparaît ensuite. 1BPJ = 1 Butin Par Joueur, le coffre donne un butin par personne. BI = Butin Illimité, le coffre peut être utilisé indéfiniment par tous les joueurs. CHRONO = Chaque joueur peut ouvrir le coffre de nouveau après un délai spécifié (délai individuel). Le coffre ne disparaît pas après ouverture.
+    spawnMode=0
+    # Permet l'apparition de PokéCoffres visible aléatoirement dans le monde.
+    spawnNormal=true
+    # Ratio d'apparition des PokéCoffres. 0: 1 par 64 chunks. 1: 1 par 32 chunks. 2: 1 par 18 chunks. 3: 1 par 10 chunks.
+    spawnRate=1
+    # Fixe le délai d'attente avant qu'un joueur puisse réutiliser un coffre (placé en créatif ou apparu naturellement et en mode "CHRONO".
+    timedLootReuseHours=24
+}
+# Plusieurs types de paramètres en lien avec le Pokérus.
+Pokerus {
+    # Activer le Pokérus. Si désactivé, empêche l'apparition, la croissance et la propagation du virus.
+    pkrsEnabled=true
+    # Informer les joueurs lorsque leur Pokémon est atteint du Pokérus.
+    pkrsInformPlayers=true
+    # Ratio d'apparition du Pokérus (1/x). (0 pour désactiver)
+    pkrsSpawnRate=12288
+    # Chance de propager le Pokérus à un Pokémon adjacent après un combat. (1/x) (-1 pour désactiver; 0 pour toujours garder activé)
+    pkrsSpreadRate=5
+}
+# Réglages contrôlant quels Pokémon apparaissent et combien d'entre eux le font.
+Spawning {
+    # Générations de Pokémon pouvant apparaître
+    Gens {
+        # Pokédex 1-151
+        Gen1=true
+        # Pokédex 152-251
+        Gen2=true
+        # Pokédex 252-386
+        Gen3=true
+        # Pokédex 387-493
+        Gen4=true
+        # Pokédex 494-649
+        Gen5=true
+        # Pokédex 650-721
+        Gen6=true
+        # Pokédex 722-807
+        Gen7=true
+    }
+    # Autorise l'apparition de légendaires sauvages (hors événements spéciaux).
+    allowLegendarySpawn=true
+    # Rayon en blocs pour lequel les Glas Transparent/Tempête vont rechercher d'autres Glas.
+    bellInclusionRange=10
+    # Chance qu'un Glas, à l'aube, commence à résoner. (1 = 100%)
+    bellSuccessChance=0.01
+    # Le ratio de Pokémon boss dans la nature (1/x), excluant les Méga-Boss.
+    bossRate=256
+    # Chance que la tentative d'apparition d'un Méga-Boss réussisse (entre 0 et 1).
+    bossSpawnChance=0.30000001192092896
+    # Chance qu'un groupe de Pokémon sauvages contienne un boss (1/ratio). 0 désactive l'apparition de boss.
+    bossSpawnTicks=10000
+    # Pokemon which can transform to Ditto.
+    canTransformToDittoOnCatch=[
+        Pidgey,
+        Ratatta,
+        Gastly,
+        Zubat,
+        Mankey,
+        Yanma,
+        Hoothoot,
+        Sentret,
+        Zigzagoon,
+        Gulpin,
+        Whismur,
+        Taillow,
+        Remoraid,
+        Starly
+    ]
+    # Force la disparition des Pokémon sauvages après une défaite ou une fuite.
+    despawnOnFleeOrLoss=false
+    # Affiche une annonce dans tout le serveur "Un Pokémon légendaire est apparu dans un biome <nom>" lorsqu'un légendaire apparaît.
+    displayLegendaryGlobalMessage=true
+    # Le nombre de blocs nécessaires pour que le niveau du Pokémon augmente lorsque la config d'apparition selon la distance par rapport à l'origine est activée.
+    distancePerLevel=30
+    # Le nombre maximal d'entités (PNJ ou Pokémon) pouvant spawner par joueur. Diminuer pour de meilleures performances.
+    entitiesPerPlayer=45
+    # Chance qu'un Pokémon sauvage apparaisse avec son Talent Caché (1/ratio). 0 désactive l'apparition de Talents Cachés.
+    hiddenAbilitySpawnRate=150
+    # Le rayon horizontal des zones sélectionnées au hasard près du joueur dans lesquelles les entités peuvent spawner. Diminuer pour de meilleures performances, mais un spawn moins fiable.
+    horizontalSliceRadius=10
+    # Combien de ticks "d'avance" le traqueur de joueur donne aux joueurs selon leur mouvement. Cela permet d'essayer de concentrer le spawn là où le joueur sera plutôt que là où il était.
+    horizontalTrackFactor=80
+    # Whether or not Pixelmon should modify Minecraft loot tables.
+    injectIntoLootTables=true
+    # Chance que la tentative d'apparition d'un légendaire réussisse (entre 0 et 1).
+    legendarySpawnChance=0.30000001192092896
+    # Nombre moyen de ticks avant qu'une tentative d'apparition de légendaire soit réalisée (modifié par la chance d'apparition).
+    legendarySpawnTicks=25000
+    # Which types of loot, such as "simple_dungeon", that Pixelmon should not modify.
+    lootIgnoreList=[]
+    # Le niveau maximal que peuvent avoir les Pokémon lorsque la config d'apparition selon la distance par rapport à l'origine est activée.
+    maxLevelByDistance=60
+    # La distance maximale d'un joueur à laquelle les entités peuvent spawner. 
+    maximumDistanceFromCentre=64
+    # Le nombre maximal de Pokémon apparus naturellement pouvant exister à la fois. Cela exclut les Pokémon apparus par la pêche, les compétences externes, les commandes, ainsi que les Pokémon Légendaires.
+    maximumSpawnedPokemon=3000
+    # Le nombre minimal de blocs entre une entité qui spawn et une entité vivante déjà existante. 
+    minimumDistanceBetweenSpawns=15
+    # La distance minimale d'un joueur à laquelle les entités peuvent spawner. Plus elle est basse, plus les entités vont spawner près des joueurs.
+    minimumDistanceFromCentre=18
+    # Remplace les villageois de base par des PNJ Pixelmon.
+    replaceMCVillagers=true
+    # Le calcul de chromatiques utilise 1/Ratio d'apparition de chromatiques pour définir la chance d'avoir un chromatique.
+    shinySpawnRate=4096
+    # Le nombre de cycles de spawn par minute. Diminuer pour de meilleures performances.
+    spawnFrequency=60
+    # Active ou désactive l'apparition d'arènes à proximité des villages nouvellement générés.
+    spawnGyms=true
+    # Définir si oui ou non le niveau des Pokémon est déterminé par la distance par rapport à l'origine du monde.
+    spawnLevelsByDistance=false
+    # Définit si les Pokémon sauvages auront des niveaux plus près du niveau des Pokémon du dresseur.
+    spawnLevelsCloserToPlayerLevels=true
+    # Les Boutiques Pokémon apparaissent avec un commerçant dans les villages de Minecraft.
+    spawnPokeMarts=true
+    # Le répertoire à utiliser en amont de ./pixelmon/spawning/ pour les conditions de spawn.
+    spawnSetFolder=default
+    # Un miltiplicateur qui accélère l'apparition de légendaires et de Méga-Boss en fonction du nombre de joueurs. [ticks = spawnTicks / (1 + (nombre de joueurs - 1) * spawnTicksPlayerMultiplier)]
+    spawnTicksPlayerMultiplier=0.009999999776482582
+    # Whether End Cities should be generated in new Ultra Space chunks.
+    spawnUltraSpaceEndCities=true
+    # Whether more Pokéloot chests should be generated in new Ultra Space chunks.
+    spawnUltraSpaceExtraLoots=true
+    # Whether more ores should be generated in new Ultra Space chunks.
+    spawnUltraSpaceExtraOres=true
+    # Whether more plants (apricorns, berries) should be generated in new Ultra Space chunks.
+    spawnUltraSpaceExtraPlants=true
+    # Whether more shrines should be generated in new Ultra Space chunks.
+    spawnUltraSpaceExtraShrines=true
+    # Whether Nether Forts should be generated in new Ultra Space chunks.
+    spawnUltraSpaceNetherForts=true
+    # Le nombre maximal de spawns réussis par cycle de spawn pour un joueur. Diminuer pour ralentir le spawn et augmenter les performances.
+    spawnsPerPass=2
+    # Chance for a wild Pokemon to turn into a Ditto on capture.
+    transformToDittoOnCatch=5.0E-5
+    # Modifies the rarity of bosses in the Ultra Space Dimension (bossRate * ultraSpaceBossModifier).
+    ultraSpaceBossModifier=0.5
+    # Modifies the rarity of hidden abilities in the Ultra Space Dimension (hiddenAbilitySpawnRate * ultraSpaceHiddenAbilityModifier).
+    ultraSpaceHiddenAbilityModifier=0.5
+    # Modifies the rarity of shiny Pokemon in the Ultra Space Dimension (shinyRate * ultraSpaceShinyModifier).
+    ultraSpaceShinyModifier=0.5
+    # Utiliser ou non le fichier sous config/pixelmon pour le Spawn amélioré.
+    useBetterSpawnerConfig=false
+    # Si activé, les Pokémon apparaîtront avec leurs capacités les plus récentes de leur liste de capacités. Sinon, les Pokémon apparaîtront avec des capacités aléatoires de leur liste de capacités selon leur niveau.
+    useRecentLevelMoves=false
+    # Le rayon vertical des zones sélectionnées au hasard près du joueur dans lesquelles les entités peuvent spawner. Diminuer pour de meilleures performances, mais un spawn moins fiable. Plus grand que l'horizontal pour mieux s'accomoder au comportement du joueur.
+    verticalSliceRadius=25
+    # Combien de ticks "d'avance" le traqueur de joueur donne aux joueurs selon leur mouvement vertical. Normalement mieux à zéro à cause de l'interférence que peuvent causer les sauts.
+    verticalTrackFactor=0
+}
+Starters {
+    # Niveau (min=5, max=100).
+    level=5
+    # Pokémon de départ chromatiques.
+    shiny=false
+    # pixelmon.config.useCustomStarters.comment
+    useCustomStarters=false
+}
+Storage {
+    # L'intervalle en secondes entre les sauvegardes désynchronisées.
+    asyncInterval=60
+    # Activer la sauvegarde désynchronisée des données d'équipe et de PC. (Serveur seulement.)
+    useAsyncSaving=false
+}

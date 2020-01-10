@@ -1,0 +1,12 @@
+minecraft:farmer
+minecraft:librarian
+minecraft:priest
+minecraft:smith
+minecraft:butcher
+minecraft:nitwit
+mca:guard
+mca:bandit
+mca:child
+mca:baker
+mca:miner
+immersiveengineering:engineer
