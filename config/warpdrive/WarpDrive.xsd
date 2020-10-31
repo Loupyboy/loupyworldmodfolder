@@ -196,6 +196,11 @@
 					</xs:annotation>
 					<xs:sequence>
 						<xs:element name="backgroundColor" type="wd:elementColor" minOccurs="0" maxOccurs="1" />
+						<xs:choice minOccurs="0" maxOccurs="1">
+							<xs:element name="boxTextures" type="wd:elementBoxTextures" minOccurs="0" maxOccurs="1" />
+							<xs:element name="boxTexture" type="wd:elementBoxTexture" minOccurs="0" maxOccurs="1" />
+						</xs:choice>
+						<xs:element name="boxBrightness" type="xs:float" minOccurs="0" maxOccurs="1" />
 						<xs:element name="starBrightnessBase" type="xs:float" minOccurs="0" maxOccurs="1" />
 						<xs:element name="starBrightnessVanilla" type="xs:float" minOccurs="0" maxOccurs="1" />
 						<xs:element name="celestialObjectOpacity" type="xs:float" minOccurs="0" maxOccurs="1" />
@@ -276,6 +281,20 @@
 		<xs:attribute name="red" type="xs:float" use="required" />
 		<xs:attribute name="green" type="xs:float" use="required" />
 		<xs:attribute name="blue" type="xs:float" use="required" />
+	</xs:complexType>
+	
+	<xs:complexType name="elementBoxTextures">
+		<xs:attribute name="back"   type="xs:string" use="required" />
+		<xs:attribute name="bottom" type="xs:string" use="required" />
+		<xs:attribute name="front"  type="xs:string" use="required" />
+		<xs:attribute name="left"   type="xs:string" use="required" />
+		<xs:attribute name="right"  type="xs:string" use="required" />
+		<xs:attribute name="top"    type="xs:string" use="required" />
+	</xs:complexType>
+	
+	<xs:complexType name="elementBoxTexture">
+		<xs:attribute name="repeat" type="xs:integer" use="required" />
+		<xs:attribute name="texture" type="xs:string" use="required" />
 	</xs:complexType>
 	
 	<xs:complexType name="elementRender">

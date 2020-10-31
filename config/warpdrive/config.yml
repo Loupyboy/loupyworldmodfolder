@@ -134,19 +134,23 @@ chunk_loader {
 
 
 client {
+    # Force rendering the breathing overlay to compensate HUD modifications
+    B:breathing_overlay_forced=true
+
     # Hexadecimal color code for location background (0xAARRGGBB where AA is alpha, RR is Red, GG is Green and BB is Blue component)
     S:location_background_color=0x40303030
 
     # Shadow casting option for current celestial object name
     B:location_has_shadow=true
 
+    # Prefix for location name, useful to add formatting
+    S:location_name_prefix=Â§l
+
     # Horizontal offset on screen, increase to move to the right
     I:location_offset_x=0
 
     # Vertical offset on screen, increase to move down
     I:location_offset_y=-20
-
-    # Format for location title
     S:location_prefix=Â§l%1$s
 
     # Scale for location text font
@@ -252,8 +256,28 @@ energy {
 }
 
 
+force_field {
+    # Maximum strength for vanilla explosion object used by simple explosives like TechGuns rockets.
+    D:explosion_strength_vanilla_cap=15.0
+
+    # Scale applied to explosion strength, increase the value to reduce explosion impact on a force field. Enable weapon logs to see the damage level.
+    D:projector_explosion_scale=1000.0
+
+    # Maximum energy stored for each projector tier
+    I:projector_max_energy_stored_by_tier <
+        20000000
+        30000
+        90000
+        150000
+     >
+
+    # Number of maxed out laser cannons required to break a superior force field.
+    D:projector_max_laser_required=10.0
+}
+
+
 general {
-    # (measured in seconds)
+    # Reaction delay when updating blocks in an assembly (measured in seconds)
     I:assembly_scanning_interval=10
 
     # Maximum allowed blast resistance for non-hull, breakable blocks from other mods. Required to fix non-sense scaling in modded fluids, etc. Default is basic hull resistance (60).
@@ -262,17 +286,38 @@ general {
     # Number of blocks to move per ticks, too high will cause lag spikes on ship jumping or deployment, too low may break the ship wirings
     I:blocks_per_tick=3500
 
+    # Enable experimental refresh during jump to prevent duping, use at your own risk
+    B:enable_experimental_refresh=false
+
     # Enable fast blockstate placement, skipping light computation. Disable if you have world implementations conflicts
     B:enable_fast_set_blockstate=false
+
+    # Enable automatic configuration of Forge's ChunkManager for WarpDrive. Disable to control manually WarpDrive specific settings.
+    B:enable_forge_chunk_manager=true
 
     # Enable area protection checks from other mods or plugins, disable if you use the event system exclusively
     B:enable_protection_checks=true
 
+    # Disable to boot the game even when celestial objects are invalid. Use at your own risk!
+    B:enforce_valid_celestial_objects=true
+
+    # Entity NPC ID
+    I:entity_NPC_id=246
+
     # Entity camera ID
     I:entity_camera_id=243
 
+    # Entity laser exploder ID
+    I:entity_laser_exploder_id=245
+
+    # Entity offline avatar ID
+    I:entity_offline_avatar_id=247
+
     # Entity particle bunch ID
     I:entity_particle_bunch_id=244
+
+    # Entity seat ID
+    I:entity_seat_id=248
 
     # Entity sphere generator ID
     I:entity_sphere_generator_id=241
@@ -286,8 +331,14 @@ general {
     # LUA scripts to load when connecting machines: 0 = none, 1 = templates in a subfolder, 2 = ready to roll (templates are still provided)
     I:lua_scripts=2
 
-    # (measured in ticks)
+    # Enforce a minimum value for Forge's dimensionUnloadQueueDelay to fix various dimension transition issues from unloading the world too soon (set below 100 at your own risk)
+    I:minimum_dimension_unload_queue_delay_ticks=100
+
+    # Complex computation delay in an assembly (measured in ticks)
     I:parameters_update_interval=20
+
+    # Registration period for an assembly (measured in seconds)
+    I:registry_update_interval=10
 
     # Root folder where to load and save ship schematics
     S:schematics_location=warpDrive_schematics
@@ -493,11 +544,20 @@ logging {
     # ForceField registry logs, enable it to dump force field registry updates
     B:enable_force_field_registry_logs=false
 
+    # GlobalRegion registry logs, enable it to dump global region registry updates
+    B:enable_global_region_registry_logs=false
+
+    # Gravity logs, enable it before reporting fall damage and related issues
+    B:enable_gravity_logs=false
+
     # Basic jump logs, should always be enabled
     B:enable_jump_logs=true
 
     # Detailed jump logs to help debug the mod, will spam your logs...
     B:enable_jumpblocks_logs=false
+
+    # Offline avatar logs, enable it before reporting related issues
+    B:enable_offline_avatar_logs=true
 
     # Profiling logs for CPU time, enable it to check for lag
     B:enable_profiling_CPU_time=true
@@ -513,8 +573,6 @@ logging {
 
     # Detailed rendering logs to help debug the mod.
     B:enable_rendering_logs=false
-
-    # Starmap logs, enable it to dump starmap registry updates
     B:enable_starmap_logs=false
 
     # Detailed transporter logs to help debug the mod, enable it before reporting a bug
@@ -525,6 +583,9 @@ logging {
 
     # Detailed world generation logs to help debug the mod, enable it before reporting a bug
     B:enable_world_generation_logs=false
+
+    # How many milliseconds to wait before logging another occurrence in a time sensitive section of the mod (rendering, events, etc.)
+    D:throttle_ms=5000.0
 }
 
 
@@ -564,6 +625,33 @@ mining_laser {
 
     # Warmup duration (buffer on startup when energy source is weak)
     I:warmup_delay_ticks=20
+}
+
+
+offline_avatar {
+    # Should avatar name tag always be visible?
+    B:always_render_name_tag=false
+
+    # Only create an offline avatar when player disconnects while inside a ship. Disabling may cause lag in spawn areas...
+    B:create_only_aboard_ships=true
+
+    # Delay before removing an avatar when their related player is in range (measured in seconds)
+    I:delay_for_removal_s=1
+
+    # Enable creation of offline avatars to follow ship movements. This only disable creating new ones.
+    B:enable=true
+
+    # Enable to forget current avatar position when it's killed, or disable player teleportation to last known avatar's position
+    B:forget_on_death=false
+
+    # Maximum range between a player and his/her avatar to consider it for removal
+    D:max_range_for_removal=5.0
+
+    # Minimum range between a player and their avatar to consider it for removal (i.e. ensuring connection was successful)
+    D:min_range_for_removal=1.0
+
+    # Scale of offline avatar compared to a normal player
+    D:model_scale=0.5
 }
 
 
@@ -674,7 +762,7 @@ ship {
 
 ship_movement_costs {
     # Cooldown seconds to wait after jumping activating a jumpgate.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:gate_activating_cooldown_interval_seconds <
         20.0
@@ -685,7 +773,7 @@ ship_movement_costs {
      >
 
     # energy required measured in internal units activating a jumpgate.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:gate_activating_energyRequired_factors <
         20000.0
@@ -696,7 +784,7 @@ ship_movement_costs {
      >
 
     # Maximum jump length value in blocks activating a jumpgate.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:gate_activating_max_jump_distance <
         100000.0
@@ -707,7 +795,7 @@ ship_movement_costs {
      >
 
     # Motion sickness duration measured in seconds activating a jumpgate.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:gate_activating_sickness_seconds <
         3.0
@@ -718,7 +806,7 @@ ship_movement_costs {
      >
 
     # Warmup seconds to wait before starting jump activating a jumpgate.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:gate_activating_warmup_seconds <
         10.0
@@ -729,7 +817,7 @@ ship_movement_costs {
      >
 
     # Cooldown seconds to wait after jumping entering hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_entering_cooldown_interval_seconds <
         60.0
@@ -740,7 +828,7 @@ ship_movement_costs {
      >
 
     # energy required measured in internal units entering hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_entering_energyRequired_factors <
         1.0E7
@@ -751,7 +839,7 @@ ship_movement_costs {
      >
 
     # Maximum jump length value in blocks entering hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_entering_max_jump_distance <
         100.0
@@ -762,7 +850,7 @@ ship_movement_costs {
      >
 
     # Motion sickness duration measured in seconds entering hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_entering_sickness_seconds <
         10.0
@@ -773,7 +861,7 @@ ship_movement_costs {
      >
 
     # Warmup seconds to wait before starting jump entering hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_entering_warmup_seconds <
         40.0
@@ -784,7 +872,7 @@ ship_movement_costs {
      >
 
     # Cooldown seconds to wait after jumping existing hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_exiting_cooldown_interval_seconds <
         60.0
@@ -795,7 +883,7 @@ ship_movement_costs {
      >
 
     # energy required measured in internal units existing hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_exiting_energyRequired_factors <
         1.0E7
@@ -806,7 +894,7 @@ ship_movement_costs {
      >
 
     # Maximum jump length value in blocks existing hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_exiting_max_jump_distance <
         100.0
@@ -817,7 +905,7 @@ ship_movement_costs {
      >
 
     # Motion sickness duration measured in seconds existing hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_exiting_sickness_seconds <
         10.0
@@ -828,7 +916,7 @@ ship_movement_costs {
      >
 
     # Warmup seconds to wait before starting jump existing hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_exiting_warmup_seconds <
         40.0
@@ -839,7 +927,7 @@ ship_movement_costs {
      >
 
     # Cooldown seconds to wait after jumping moving in hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_moving_cooldown_interval_seconds <
         30.0
@@ -850,7 +938,7 @@ ship_movement_costs {
      >
 
     # energy required measured in internal units moving in hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_moving_energyRequired_factors <
         10000.0
@@ -861,7 +949,7 @@ ship_movement_costs {
      >
 
     # Maximum jump length value in blocks moving in hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_moving_max_jump_distance <
         200.0
@@ -872,7 +960,7 @@ ship_movement_costs {
      >
 
     # Motion sickness duration measured in seconds moving in hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_moving_sickness_seconds <
         10.0
@@ -883,7 +971,7 @@ ship_movement_costs {
      >
 
     # Warmup seconds to wait before starting jump moving in hyperspace.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:hyperspace_moving_warmup_seconds <
         20.0
@@ -894,7 +982,7 @@ ship_movement_costs {
      >
 
     # Cooldown seconds to wait after jumping landing on a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_landing_cooldown_interval_seconds <
         60.0
@@ -905,7 +993,7 @@ ship_movement_costs {
      >
 
     # energy required measured in internal units landing on a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_landing_energyRequired_factors <
         10000.0
@@ -916,7 +1004,7 @@ ship_movement_costs {
      >
 
     # Maximum jump length value in blocks landing on a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_landing_max_jump_distance <
         50.0
@@ -927,7 +1015,7 @@ ship_movement_costs {
      >
 
     # Motion sickness duration measured in seconds landing on a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_landing_sickness_seconds <
         0.0
@@ -938,7 +1026,7 @@ ship_movement_costs {
      >
 
     # Warmup seconds to wait before starting jump landing on a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_landing_warmup_seconds <
         20.0
@@ -949,7 +1037,7 @@ ship_movement_costs {
      >
 
     # Cooldown seconds to wait after jumping moving on a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_moving_cooldown_interval_seconds <
         40.0
@@ -960,7 +1048,7 @@ ship_movement_costs {
      >
 
     # energy required measured in internal units moving on a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_moving_energyRequired_factors <
         100.0
@@ -971,7 +1059,7 @@ ship_movement_costs {
      >
 
     # Maximum jump length value in blocks moving on a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_moving_max_jump_distance <
         50.0
@@ -982,7 +1070,7 @@ ship_movement_costs {
      >
 
     # Motion sickness duration measured in seconds moving on a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_moving_sickness_seconds <
         0.0
@@ -993,7 +1081,7 @@ ship_movement_costs {
      >
 
     # Warmup seconds to wait before starting jump moving on a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_moving_warmup_seconds <
         20.0
@@ -1004,7 +1092,7 @@ ship_movement_costs {
      >
 
     # Cooldown seconds to wait after jumping taking off a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_takeoff_cooldown_interval_seconds <
         90.0
@@ -1015,7 +1103,7 @@ ship_movement_costs {
      >
 
     # energy required measured in internal units taking off a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_takeoff_energyRequired_factors <
         10000.0
@@ -1026,7 +1114,7 @@ ship_movement_costs {
      >
 
     # Maximum jump length value in blocks taking off a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_takeoff_max_jump_distance <
         50.0
@@ -1037,7 +1125,7 @@ ship_movement_costs {
      >
 
     # Motion sickness duration measured in seconds taking off a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_takeoff_sickness_seconds <
         0.0
@@ -1048,7 +1136,7 @@ ship_movement_costs {
      >
 
     # Warmup seconds to wait before starting jump taking off a planet.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:planet_takeoff_warmup_seconds <
         20.0
@@ -1059,7 +1147,7 @@ ship_movement_costs {
      >
 
     # Cooldown seconds to wait after jumping moving in space.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:space_moving_cooldown_interval_seconds <
         30.0
@@ -1070,7 +1158,7 @@ ship_movement_costs {
      >
 
     # energy required measured in internal units moving in space.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:space_moving_energyRequired_factors <
         1000.0
@@ -1081,7 +1169,7 @@ ship_movement_costs {
      >
 
     # Maximum jump length value in blocks moving in space.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:space_moving_max_jump_distance <
         100.0
@@ -1092,7 +1180,7 @@ ship_movement_costs {
      >
 
     # Motion sickness duration measured in seconds moving in space.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:space_moving_sickness_seconds <
         0.0
@@ -1103,7 +1191,7 @@ ship_movement_costs {
      >
 
     # Warmup seconds to wait before starting jump moving in space.
-    # You need to provide exactly 5 values { A, B, C, D, E }. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
+    # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:space_moving_warmup_seconds <
         10.0
@@ -1134,10 +1222,7 @@ ship_scanner {
 
 
 starmap {
-    # Enable to bypass the check at boot. Use at your own risk!
     B:allow_overlapping_celestial_objects=false
-
-    # (measured in seconds)
     I:registry_update_interval=10
 }
 

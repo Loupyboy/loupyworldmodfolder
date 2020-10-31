@@ -1,2 +1,3 @@
 #List of Hidden Players
-loupyboy:false
+loupyboy:true
+tristan_05:true

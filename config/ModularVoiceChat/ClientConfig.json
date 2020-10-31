@@ -1,0 +1,8 @@
+{
+  "speakerVolume": 120,
+  "microphoneVolume": 110,
+  "speaker": "Périphérique audio principal",
+  "bitrate": 96000,
+  "microphone": "",
+  "toggle-to-talk": true
+}

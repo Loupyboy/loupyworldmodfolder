@@ -1,23 +1,23 @@
 version:1343
 invertYMouse:false
 mouseSensitivity:0.5
-fov:-0.017620469
+fov:-6.7634584E-4
 gamma:1.0
 saturation:0.0
 renderDistance:16
 guiScale:3
 particles:0
-bobView:false
+bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:1
 fancyGraphics:true
 ao:2
-renderClouds:false
-resourcePacks:["ripped-villagers-iron-golems-1558812616.zip"]
-incompatibleResourcePacks:["ripped-villagers-iron-golems-1558812616.zip"]
-lastServer:25.70.0.230:59563
+renderClouds:fast
+resourcePacks:["Loupyworld1.12.2-V2.zip"]
+incompatibleResourcePacks:[]
+lastServer:localhost:25566
 lang:en_us
 chatVisibility:0
 chatColors:true
@@ -25,8 +25,8 @@ chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
-fullscreen:true
-enableVsync:true
+fullscreen:false
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:true
@@ -69,7 +69,7 @@ key_key.pickItem:-98
 key_key.command:53
 key_key.screenshot:60
 key_key.togglePerspective:63
-key_key.smoothCamera:0
+key_key.smoothCamera:66
 key_key.fullscreen:87
 key_key.spectatorOutlines:0
 key_key.swapHands:-97
@@ -91,16 +91,6 @@ key_Boost Key:0
 key_Mode Switch Key:0
 key_Side Inventory Key:0
 key_Hub Expand Key:0
-key_key.dss.activate.desc:45
-key_key.dss.next.desc:15
-key_key.dss.attack.desc:200
-key_key.dss.left.desc:203
-key_key.dss.right.desc:205
-key_key.dss.down.desc:208
-key_key.dss.block.desc:157
-key_key.dss.toggleat.desc:52
-key_key.dss.skills_gui.desc:51
-key_key.dss.togglehud.desc:41
 key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
@@ -129,22 +119,15 @@ key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.playerSort:0
 key_keybind.baublesinventory:0
-key_key.next_placement_mode.desc:67
-key_key.next_axis_mode.desc:68
 key_key.death_history:0
 key_Scene1 start/pause:0
 key_Scene2 start/pause:0
 key_Scene3 start/pause:0
 key_Scene reset:0
-key_Quest Log:38
+key_Quest Log:0
 key_key.fart.desc:34
-key_Dragons Breath:0
-key_Teleport:0
-key_Open MPS Keybind GUI:0
-key_Go Down (MPS Flight Control):0
-key_Cycle Tool Backward (MPS):0
-key_Cycle Tool Forward (MPS):0
-key_Cosmetic (MPS):0
+key_Push-to-talk:47
+key_Open config:88
 key_key.reload:19
 key_key.unload:22
 key_key.inspect:-96
@@ -154,7 +137,7 @@ key_key.recoil_fitter:208
 key_key.silencer:203
 key_key.texture_change:205
 key_key.laser:38
-key_key.nightVision:0
+key_key.nightVision:49
 key_key.add:201
 key_key.subtract:209
 key_key.fire_mode:33
@@ -162,20 +145,15 @@ key_key.proning:17
 key_key.attach_laser:54
 key_key.sight:52
 key_key.custom_inventory:0
-key_pe.key.armor_toggle:0
-key_pe.key.charge:0
-key_pe.key.extra_function:0
-key_pe.key.fire_projectile:0
-key_pe.key.mode:0
-key_translationKey.scp.nightvision_toggle:0
-key_Rotate stored structure:0
+key_key.togglePotionParticles:66:CONTROL
 key_walljump.key.walljump:42
 key_key.wearablebackpacks.open:48
-key_key.interact:54
-key_key.nightvision:49
-key_key.thermalvision:27
-key_key.config:46:SHIFT
-key_key.opensecurity:39
+key_key.openglasses.interact:46
+key_key.openglasses.stable_interact:46:ALT
+key_key.openglasses.nightvision:49
+key_key.openglasses.thermalvision:51
+key_key.openglasses.config:46:SHIFT
+key_key.openglasses.opensecurity:24
 key_key.cameraZoomIn:73
 key_key.cameraZoomOut:81
 key_key.cameraEmitRedstone:71
@@ -192,29 +170,28 @@ key_key.jei.nextPage:0
 key_key.jei.bookmark:0
 key_key.jei.toggleBookmarkOverlay:0
 key_key.toggle_focus.desc:0
-key_nei.options.keys.gui.botania_corporea_request:0
 key_key.next_image:32
 key_key.previous_image:16
 key_key.carry.desc:-97
-key_Options Gui:66
 key_key.cofh.multimode:0
 key_key.clipboardPaste:210
-key_key.pitchDown.desc:29
+key_cyberware.keybinds.menu:21
+key_key.pitchDown.desc:200
 key_key.vehicleMenu.desc:19
 key_key.dropBomb.desc:-97
 key_key.fireVehicleGuns.desc:-96
-key_key.switchControlMode.desc:35
+key_key.switchControlMode.desc:45
 key_key.reload.desc:19
 key_key.teamsMenu.desc:24
 key_key.teamsScores.desc:25
-key_key.rollLeft.desc:17
-key_Roll right:46
+key_key.rollLeft.desc:203
+key_key.rollRight.desc:205
 key_key.toggleLandingGear.desc:38
 key_key.toggleDoors.desc:37
 key_key.switchMovementMode.desc:36
 key_key.lookAtGun.desc:-96
 key_key.debug.desc:0
-key_key.reloadModels.desc:0
+key_key.reloadModels.desc:62
 key_key.primaryVehicleInteract.desc:-100
 key_key.secondaryVehicleInteract.desc:-99
 key_Open Browser:83
@@ -223,33 +200,25 @@ key_mekanism.key.armorMode:211
 key_mekanism.key.feetMode:207
 key_mekanism.key.voice:46
 key_keybind.fovfixtoggle:0
-key_key.arms.desc:0
-key_key.mod.desc:64
-key_key.head.desc:0
 key_signpic.key.gui:11
-key_Trade:14
-key_Speak:47
-key_Gliby's Options Menu:88
-key_WorldEdit Reference:0
-key_key.immersiveengineering.magnetEquip:31
-key_key.immersiveengineering.chemthrowerSwitch:0
+key_WorldEdit Reference:64
 key_key.journeymap.zoom_in:78
 key_key.journeymap.zoom_out:74
-key_key.journeymap.minimap_type:72
+key_key.journeymap.minimap_type:0
 key_key.journeymap.minimap_preset:43
 key_key.journeymap.create_waypoint:0
 key_key.journeymap.toggle_waypoints:55
-key_key.journeymap.fullscreen_create_waypoint:0
-key_key.journeymap.fullscreen_chat_position:0
+key_key.journeymap.fullscreen_create_waypoint:-98
+key_key.journeymap.fullscreen_chat_position:-99
 key_key.journeymap.map_toggle_alt:181
-key_key.journeymap.fullscreen_waypoints:48:CONTROL
-key_key.journeymap.minimap_toggle_alt:36:CONTROL
+key_key.journeymap.fullscreen_waypoints:0
+key_key.journeymap.minimap_toggle_alt:0
 key_key.journeymap.fullscreen_options:0
 key_key.journeymap.fullscreen.north:0
 key_key.journeymap.fullscreen.south:0
 key_key.journeymap.fullscreen.east:0
 key_key.journeymap.fullscreen.west:0
-soundCategory_master:0.705298
+soundCategory_master:0.75165564
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

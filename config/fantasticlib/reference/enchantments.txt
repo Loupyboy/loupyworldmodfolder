@@ -28,9 +28,13 @@ minecraft:luck_of_the_sea
 minecraft:lure
 minecraft:mending
 minecraft:vanishing_curse
-minecraftfuture:channeling
-minecraftfuture:impaling
-minecraftfuture:loyalty
+futuremc:channeling
+futuremc:impaling
+futuremc:loyalty
+futuremc:riptide
+walljump:walljump
+walljump:doublejump
+walljump:speedboost
 cofhcore:holding
 cofhcore:insight
 cofhcore:leech
@@ -39,3 +43,7 @@ cofhcore:smashing
 cofhcore:smelting
 cofhcore:soulbound
 cofhcore:vorpal
+variedcommodities:vc_damage
+variedcommodities:vc_poison
+variedcommodities:vc_confusion
+variedcommodities:vc_infinite
